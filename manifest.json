@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "course": {
+    "title": "Building AI Assistants with On-Device Memory",
+    "slug": "building-ai-assistants-with-on-device-memory",
+    "source_url": "https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory"
+  },
+  "lessons": [
+    {
+      "index": 1,
+      "title": "Introduction",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/wr5jeg/introduction",
+      "status": "skipped",
+      "transcript_path": "transcripts/01-introduction.md",
+      "message": "already exists"
+    },
+    {
+      "index": 2,
+      "title": "Overview of On-Device AI Memory",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/0k7psd/overview-of-on-device-ai-memory",
+      "status": "skipped",
+      "transcript_path": "transcripts/02-overview-of-on-device-ai-memory.md",
+      "message": "already exists"
+    },
+    {
+      "index": 3,
+      "title": "Inside the AI Assistant Device",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/uzd6vr/inside-the-ai-assistant-device",
+      "status": "skipped",
+      "transcript_path": "transcripts/03-inside-the-ai-assistant-device.md",
+      "message": "already exists"
+    },
+    {
+      "index": 4,
+      "title": "Building the Memory",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/53fyux/building-the-memory",
+      "status": "saved",
+      "transcript_path": "transcripts/04-building-the-memory.md",
+      "message": ""
+    },
+    {
+      "index": 5,
+      "title": "Building the Voice Assistant",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/mosnyg/building-the-voice-assistant",
+      "status": "saved",
+      "transcript_path": "transcripts/05-building-the-voice-assistant.md",
+      "message": ""
+    },
+    {
+      "index": 6,
+      "title": "Learning Through Memory",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/cn8f9c/learning-through-memory",
+      "status": "saved",
+      "transcript_path": "transcripts/06-learning-through-memory.md",
+      "message": ""
+    },
+    {
+      "index": 7,
+      "title": "Running on a Local Computer",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/53fyuz/running-on-a-local-computer",
+      "status": "skipped",
+      "transcript_path": "transcripts/07-running-on-a-local-computer.md",
+      "message": "already exists"
+    },
+    {
+      "index": 8,
+      "title": "Conclusion",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/bvc5ky/conclusion",
+      "status": "skipped",
+      "transcript_path": "transcripts/08-conclusion.md",
+      "message": "already exists"
+    },
+    {
+      "index": 9,
+      "title": "Practice on AI Coding Lab",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/796lrzak/practice-on-ai-coding-lab",
+      "status": "no_transcript",
+      "transcript_path": "",
+      "message": "transcript not provided for this course item"
+    },
+    {
+      "index": 10,
+      "title": "Graded",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/nabwih/quiz",
+      "status": "no_transcript",
+      "transcript_path": "",
+      "message": "transcript not provided for this course item"
+    },
+    {
+      "index": 11,
+      "title": "[Optional] A Hybrid of On-Device and Cloud Memory",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/53fyuvp0/%5Boptional%5D-a-hybrid-of-on-device-and-cloud-memory",
+      "status": "no_transcript",
+      "transcript_path": "",
+      "message": "transcript not provided for this course item"
+    },
+    {
+      "index": 12,
+      "title": "[Optional] Glossary",
+      "source_url": "https://learn.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory/lesson/3sw8z0/%5Boptional%5D-glossary",
+      "status": "no_transcript",
+      "transcript_path": "",
+      "message": "transcript not provided for this course item"
+    }
+  ],
+  "code": {
+    "path": "code",
+    "sources": [
+      "https://s172-29-100-71p8888.lab-aws-production.deeplearning.ai/tree?token=REDACTED"
+    ],
+    "saved": 0,
+    "skipped": 1,
+    "failed": 0,
+    "errors": []
+  }
+}
