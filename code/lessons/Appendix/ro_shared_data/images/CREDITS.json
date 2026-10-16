@@ -1,0 +1,121 @@
+[
+  {
+    "file": "bakery.jpg",
+    "topic": "croissant bakery pastry",
+    "source": "https://commons.wikimedia.org/wiki/File:Cronut.jpg",
+    "license": "CC BY 2.0",
+    "artist": "cumi&ciki"
+  },
+  {
+    "file": "bicycle.jpg",
+    "topic": "bicycle parked street",
+    "source": "https://commons.wikimedia.org/wiki/File:Parked_bicycle_with_graffitied_building_facade_and_doors_in_Amsterdam.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Basile Morin"
+  },
+  {
+    "file": "book.jpg",
+    "topic": "stack of books",
+    "source": "https://commons.wikimedia.org/wiki/File:A_stack_of_wooden_books_-_geograph.org.uk_-_6462548.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Evelyn Simak"
+  },
+  {
+    "file": "coffee.jpg",
+    "topic": "cappuccino cup cafe",
+    "source": "https://commons.wikimedia.org/wiki/File:A-cup-of-cappuccino-coffee-dar-es-salaam-cafe.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Aneth David (SLU)"
+  },
+  {
+    "file": "dog.jpg",
+    "topic": "dog pet sitting",
+    "source": "https://commons.wikimedia.org/wiki/File:White-jack-russell-puppy-dog-pet-fur-sitting.jpg",
+    "license": "CC0",
+    "artist": ""
+  },
+  {
+    "file": "gym.jpg",
+    "topic": "gym dumbbells weights",
+    "source": "https://commons.wikimedia.org/wiki/File:Attractive_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Nenad Stojkovic"
+  },
+  {
+    "file": "kitchen.jpg",
+    "topic": "modern kitchen counter interior bright",
+    "source": "https://commons.wikimedia.org/wiki/File:Bright_kitchen_on_a_winter_day_with_a_mixer_and_fruits_on_the_counter_near_a_large_window.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Shixart1985"
+  },
+  {
+    "file": "laptop.jpg",
+    "topic": "person using laptop cafe table",
+    "source": "https://commons.wikimedia.org/wiki/File:Man_sitting_with_laptop_(Unsplash).jpg",
+    "license": "CC0",
+    "artist": "Muhammad Raufan Yusup muhraufan"
+  },
+  {
+    "file": "meeting.jpg",
+    "topic": "business people meeting conference table",
+    "source": "https://commons.wikimedia.org/wiki/File:Deputy_Secretary_of_Defense_Kathleen_Hicks_greets_members_of_the_Defense_Business_Board_during_a_meeting_at_the_Pentagon,_Washington,_D.C.,_August_2,_2023_-_230802-D-PM193-1001.jpg",
+    "license": "Public domain",
+    "artist": "U.S. Deputy Secretary of Defense Kathleen H. Hicks"
+  },
+  {
+    "file": "park.jpg",
+    "topic": "city park green lawn sunny day",
+    "source": "https://commons.wikimedia.org/wiki/File:2026-04-08_Z5-4675_Achim-Lammerts_Mannheim-Wasserturm.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Achim Lammerts (Syntaxys)"
+  },
+  {
+    "file": "pizza.jpg",
+    "topic": "pizza margherita plate",
+    "source": "https://commons.wikimedia.org/wiki/File:Margherita_pizza_on_plate_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Shisma"
+  },
+  {
+    "file": "plant.jpg",
+    "topic": "potted houseplant",
+    "source": "https://commons.wikimedia.org/wiki/File:Amaryllis_(Hippeastrum)_18-01-2025._(actm.)_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Agnes Monkelbaan"
+  },
+  {
+    "file": "ramen.jpg",
+    "topic": "ramen bowl noodles",
+    "source": "https://commons.wikimedia.org/wiki/File:Fusion_of_Japanese_and_Meitei_cuisines_-_Mixed_bowl_of_octopus_ramen_noodles_and_traditional_Meetei_vegetables_-_Imphal,_Kangleipak_(Manipur)_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Haoreima"
+  },
+  {
+    "file": "restaurant.jpg",
+    "topic": "restaurant plate food",
+    "source": "https://commons.wikimedia.org/wiki/File:Elizabeth%27s_Restaurant_-_Food_and_Devices_-_New_Orleans_2016.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Infrogmation of New Orleans"
+  },
+  {
+    "file": "sneakers.jpg",
+    "topic": "white sneakers shoe",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_white_sneakers_logo_(Unsplash).jpg",
+    "license": "CC0",
+    "artist": "chuttersnap"
+  },
+  {
+    "file": "street.jpg",
+    "topic": "busy city street cars daytime",
+    "source": "https://commons.wikimedia.org/wiki/File:City_of_Toy_Cars_(Unsplash).jpg",
+    "license": "CC0",
+    "artist": "Dakota Corbin"
+  },
+  {
+    "file": "train.jpg",
+    "topic": "train station platform",
+    "source": "https://commons.wikimedia.org/wiki/File:Jesen%C3%ADk_train_station_2025.01.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Pudelek"
+  }
+]

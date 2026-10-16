@@ -1,0 +1,363 @@
+[
+  {
+    "id": 0,
+    "source_type": "text",
+    "category": "food",
+    "location": "5th St",
+    "timestamp": 1694679480,
+    "note": "Great little coffee place on 5th with outdoor seating and fast wifi",
+    "price": 6.0
+  },
+  {
+    "id": 1,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694685600,
+    "note": "Standup with Sarah moved to Thursday to review the Q3 roadmap"
+  },
+  {
+    "id": 2,
+    "source_type": "text",
+    "category": "errands",
+    "location": "Home",
+    "timestamp": 1694682000,
+    "note": "Pick up dry cleaning before Friday, ticket is on the fridge"
+  },
+  {
+    "id": 3,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694691000,
+    "note": "Idea: batch the weekly report so it drafts itself every Monday"
+  },
+  {
+    "id": 4,
+    "source_type": "text",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1694718000,
+    "note": "Mum's new address is 14 Elm Court, buzzer 3"
+  },
+  {
+    "id": 5,
+    "source_type": "text",
+    "category": "shopping",
+    "location": "Mall",
+    "timestamp": 1694704680,
+    "note": "Liked the black and white running shoes at the mall, about $45",
+    "price": 45.0
+  },
+  {
+    "id": 6,
+    "source_type": "text",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1694725200,
+    "note": "Book club is reading the new sci-fi novel, we meet next Tuesday"
+  },
+  {
+    "id": 7,
+    "source_type": "text",
+    "category": "health",
+    "location": "Home",
+    "timestamp": 1694692800,
+    "note": "Dentist appointment confirmed for next Wednesday at 2pm"
+  },
+  {
+    "id": 8,
+    "source_type": "text",
+    "category": "food",
+    "location": "Downtown",
+    "timestamp": 1694694600,
+    "note": "Try the new ramen place downtown, everyone raves about the tonkotsu",
+    "price": 18.0
+  },
+  {
+    "id": 9,
+    "source_type": "text",
+    "category": "home",
+    "location": "Home",
+    "timestamp": 1694712600,
+    "note": "Water the plants twice a week while the amaryllis is blooming"
+  },
+  {
+    "id": 10,
+    "source_type": "text",
+    "category": "health",
+    "location": "Gym",
+    "timestamp": 1694676600,
+    "note": "Renewed the gym membership, locker code is 4471",
+    "price": 40.0
+  },
+  {
+    "id": 11,
+    "source_type": "text",
+    "category": "work",
+    "location": "Park",
+    "price": 14,
+    "timestamp": 1694707200,
+    "note": "Found a quiet cafe with good wifi to work from near the park"
+  },
+  {
+    "id": 12,
+    "source_type": "text",
+    "category": "errands",
+    "location": "Home",
+    "timestamp": 1694721600,
+    "note": "Remember to call the landlord about the leaking tap"
+  },
+  {
+    "id": 13,
+    "source_type": "text",
+    "category": "food",
+    "location": "5th St",
+    "timestamp": 1694678400,
+    "note": "New bakery on the corner does an amazing morning cronut",
+    "price": 4.0
+  },
+  {
+    "id": 14,
+    "source_type": "text",
+    "category": "errands",
+    "location": "Home",
+    "timestamp": 1694728800,
+    "note": "Parking permit renewal is due at the end of the month"
+  },
+  {
+    "id": 15,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694700000,
+    "note": "Meeting notes: ship the edge demo before the conference"
+  },
+  {
+    "id": 16,
+    "source_type": "text",
+    "category": "home",
+    "location": "Home",
+    "timestamp": 1694714400,
+    "note": "Bought a new houseplant for the kitchen windowsill",
+    "price": 12.0
+  },
+  {
+    "id": 17,
+    "source_type": "text",
+    "category": "travel",
+    "location": "Station",
+    "timestamp": 1694727000,
+    "note": "Weekend trip: check train times to the coast on Saturday"
+  },
+  {
+    "id": 18,
+    "source_type": "text",
+    "category": "food",
+    "location": "Office",
+    "timestamp": 1694624400,
+    "note": "Coffee run to the espresso bar near the office",
+    "price": 3.0
+  },
+  {
+    "id": 19,
+    "source_type": "text",
+    "category": "work",
+    "location": "Home",
+    "timestamp": 1694635200,
+    "note": "Late night fixing the deploy pipeline, finally green"
+  },
+  {
+    "id": 20,
+    "source_type": "voice",
+    "category": "food",
+    "location": "Downtown",
+    "timestamp": 1694697840,
+    "transcript": "Note to self, the ramen downtown was incredible, fourteen dollars and worth it, sat right by the window",
+    "audio_file": "ramen.wav",
+    "price": 14.0,
+    "store": "Ramen-ya"
+  },
+  {
+    "id": 21,
+    "source_type": "voice",
+    "category": "shopping",
+    "location": "Mall",
+    "timestamp": 1694705400,
+    "transcript": "Reminder, buy a birthday present for Alex this week, maybe those headphones he mentioned",
+    "audio_file": "birthday.wav"
+  },
+  {
+    "id": 22,
+    "source_type": "voice",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694685960,
+    "transcript": "Quick memo, the standup is moved to Thursday, tell the rest of the team",
+    "audio_file": "standup.wav"
+  },
+  {
+    "id": 23,
+    "source_type": "voice",
+    "category": "travel",
+    "location": "Station",
+    "timestamp": 1694682720,
+    "transcript": "Parked the bike near the station, second rack from the entrance",
+    "audio_file": "bike.wav"
+  },
+  {
+    "id": 24,
+    "source_type": "voice",
+    "category": "errands",
+    "location": "Home",
+    "timestamp": 1694719800,
+    "transcript": "Just remembered, we are low on coffee at home, grab a bag on the way back",
+    "audio_file": "coffee.wav"
+  },
+  {
+    "id": 25,
+    "source_type": "photo",
+    "category": "food",
+    "location": "5th St",
+    "timestamp": 1694679119,
+    "file": "coffee.jpg",
+    "store": "Blue Cup"
+  },
+  {
+    "id": 26,
+    "source_type": "photo",
+    "category": "food",
+    "location": "5th St",
+    "timestamp": 1694678760,
+    "file": "bakery.jpg",
+    "price": 4.0
+  },
+  {
+    "id": 27,
+    "source_type": "photo",
+    "category": "food",
+    "location": "Downtown",
+    "timestamp": 1694696400,
+    "file": "restaurant.jpg",
+    "store": "Elizabeth's"
+  },
+  {
+    "id": 28,
+    "source_type": "photo",
+    "category": "food",
+    "location": "Downtown",
+    "timestamp": 1694697120,
+    "file": "ramen.jpg",
+    "price": 14.0,
+    "store": "Ramen-ya"
+  },
+  {
+    "id": 29,
+    "source_type": "photo",
+    "category": "food",
+    "location": "Home",
+    "timestamp": 1694721600,
+    "file": "pizza.jpg",
+    "price": 18.0
+  },
+  {
+    "id": 30,
+    "source_type": "photo",
+    "category": "shopping",
+    "location": "Mall",
+    "timestamp": 1694704680,
+    "file": "sneakers.jpg",
+    "price": 45.0,
+    "store": "SportsWorld"
+  },
+  {
+    "id": 31,
+    "source_type": "photo",
+    "category": "travel",
+    "location": "5th St",
+    "timestamp": 1694682360,
+    "file": "bicycle.jpg"
+  },
+  {
+    "id": 32,
+    "source_type": "photo",
+    "category": "travel",
+    "location": "Station",
+    "timestamp": 1694727360,
+    "file": "train.jpg"
+  },
+  {
+    "id": 33,
+    "source_type": "photo",
+    "category": "travel",
+    "location": "Downtown",
+    "timestamp": 1694707920,
+    "file": "street.jpg"
+  },
+  {
+    "id": 34,
+    "source_type": "photo",
+    "category": "travel",
+    "location": "Park",
+    "timestamp": 1694709000,
+    "file": "park.jpg"
+  },
+  {
+    "id": 35,
+    "source_type": "photo",
+    "category": "home",
+    "location": "Home",
+    "timestamp": 1694712960,
+    "file": "plant.jpg",
+    "price": 12.0
+  },
+  {
+    "id": 36,
+    "source_type": "photo",
+    "category": "home",
+    "location": "Home",
+    "timestamp": 1694715120,
+    "file": "kitchen.jpg"
+  },
+  {
+    "id": 37,
+    "source_type": "photo",
+    "category": "social",
+    "location": "Park",
+    "timestamp": 1694710800,
+    "file": "dog.jpg"
+  },
+  {
+    "id": 38,
+    "source_type": "photo",
+    "category": "shopping",
+    "location": "Mall",
+    "timestamp": 1694706480,
+    "file": "book.jpg",
+    "price": 15.0
+  },
+  {
+    "id": 39,
+    "source_type": "photo",
+    "category": "work",
+    "location": "Park",
+    "timestamp": 1694707560,
+    "file": "laptop.jpg"
+  },
+  {
+    "id": 40,
+    "source_type": "photo",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694685600,
+    "file": "meeting.jpg"
+  },
+  {
+    "id": 41,
+    "source_type": "photo",
+    "category": "health",
+    "location": "Gym",
+    "timestamp": 1694676240,
+    "file": "gym.jpg"
+  }
+]

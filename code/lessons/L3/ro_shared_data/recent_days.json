@@ -1,0 +1,843 @@
+[
+  {
+    "id": 1000,
+    "source_type": "text",
+    "category": "food",
+    "location": "5th St",
+    "timestamp": 1692862200,
+    "note": "Coffee at Blue Cup, espresso, $5",
+    "price": 5.0,
+    "store": "Blue Cup"
+  },
+  {
+    "id": 1001,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1692867600,
+    "note": "Standup at 9:30, review dashboard update"
+  },
+  {
+    "id": 1002,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1692885600,
+    "note": "Sarah says the kitchen refactor PR is live"
+  },
+  {
+    "id": 1003,
+    "source_type": "voice",
+    "category": "errands",
+    "location": "Station",
+    "timestamp": 1692901800,
+    "transcript": "Note to self, buy milk and bread on the way home"
+  },
+  {
+    "id": 1004,
+    "source_type": "text",
+    "category": "health",
+    "location": "Gym",
+    "timestamp": 1692945000,
+    "note": "Gym early, shoulders and back day"
+  },
+  {
+    "id": 1005,
+    "source_type": "text",
+    "category": "social",
+    "location": "Office",
+    "timestamp": 1692957600,
+    "note": "Meeting with Alex about the coast trip weekend"
+  },
+  {
+    "id": 1006,
+    "source_type": "text",
+    "category": "food",
+    "location": "Downtown",
+    "timestamp": 1692964800,
+    "note": "Lunch at Ramen-ya, tonkotsu broth, $14",
+    "price": 14.0,
+    "store": "Ramen-ya"
+  },
+  {
+    "id": 1007,
+    "source_type": "text",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1692975600,
+    "note": "Book club Friday, new sci-fi novel starts"
+  },
+  {
+    "id": 1008,
+    "source_type": "voice",
+    "category": "social",
+    "location": null,
+    "timestamp": 1692990000,
+    "transcript": "Reminder, Mum's birthday, she wants a scarf"
+  },
+  {
+    "id": 1009,
+    "source_type": "text",
+    "category": "home",
+    "location": "Home",
+    "timestamp": 1693000800,
+    "note": "Fixed the dripping kitchen tap finally"
+  },
+  {
+    "id": 1010,
+    "source_type": "text",
+    "category": "travel",
+    "location": null,
+    "timestamp": 1693033200,
+    "note": "Commute took 35 min, bike path was blocked"
+  },
+  {
+    "id": 1011,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1693042200,
+    "note": "Debug production issue in user auth service"
+  },
+  {
+    "id": 1012,
+    "source_type": "text",
+    "category": "food",
+    "location": "Office",
+    "timestamp": 1693054800,
+    "note": "Sandwich from deli, turkey Swiss, $8.50",
+    "price": 8.5
+  },
+  {
+    "id": 1013,
+    "source_type": "voice",
+    "category": "errands",
+    "location": "Home",
+    "timestamp": 1693065600,
+    "transcript": "Quick memo, need to buy new lightbulbs for the living room"
+  },
+  {
+    "id": 1014,
+    "source_type": "text",
+    "category": "social",
+    "location": "Park",
+    "timestamp": 1693123200,
+    "note": "Coffee with Alex at Park, meeting was good"
+  },
+  {
+    "id": 1015,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1693134000,
+    "note": "Stakeholder meeting about Q3 roadmap"
+  },
+  {
+    "id": 1016,
+    "source_type": "text",
+    "category": "errands",
+    "location": "Downtown",
+    "timestamp": 1693146600,
+    "note": "Groceries, $52, including meat for Sunday roast",
+    "price": 52.0
+  },
+  {
+    "id": 1017,
+    "source_type": "voice",
+    "category": "home",
+    "location": "Home",
+    "timestamp": 1693159200,
+    "transcript": "Note to self, landlord says rent stays same next year"
+  },
+  {
+    "id": 1018,
+    "source_type": "text",
+    "category": "home",
+    "location": "Home",
+    "timestamp": 1693170000,
+    "note": "Planted basil in kitchen window, hoping it survives"
+  },
+  {
+    "id": 1019,
+    "source_type": "text",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1693213200,
+    "note": "Finished sci-fi book, really gripping"
+  },
+  {
+    "id": 1020,
+    "source_type": "text",
+    "category": "food",
+    "location": "Downtown",
+    "timestamp": 1693224000,
+    "note": "Lunch special at Ramen-ya, $11.50 with tea",
+    "price": 11.5,
+    "store": "Ramen-ya"
+  },
+  {
+    "id": 1021,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1693234800,
+    "note": "Sarah's PR review needs one more iteration"
+  },
+  {
+    "id": 1022,
+    "source_type": "voice",
+    "category": "travel",
+    "location": "Home",
+    "timestamp": 1693243800,
+    "transcript": "Reminder, bike needs new chain soon, check pressure"
+  },
+  {
+    "id": 1023,
+    "source_type": "text",
+    "category": "health",
+    "location": null,
+    "timestamp": 1693252800,
+    "note": "Flu shot appointment next Tuesday at 3pm"
+  },
+  {
+    "id": 1024,
+    "source_type": "text",
+    "category": "health",
+    "location": "Gym",
+    "timestamp": 1693290600,
+    "note": "Gym session, legs, feeling strong today"
+  },
+  {
+    "id": 1025,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1693303200,
+    "note": "Code review for new API endpoints done"
+  },
+  {
+    "id": 1026,
+    "source_type": "text",
+    "category": "travel",
+    "location": "Home",
+    "timestamp": 1693323000,
+    "note": "Planning items for weekend coast trip"
+  },
+  {
+    "id": 1027,
+    "source_type": "voice",
+    "category": "errands",
+    "location": "Home",
+    "timestamp": 1693335600,
+    "transcript": "Note to self, return library books tomorrow morning"
+  },
+  {
+    "id": 1028,
+    "source_type": "text",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1693342800,
+    "note": "Mum called, she likes the scarf idea"
+  },
+  {
+    "id": 1029,
+    "source_type": "text",
+    "category": "food",
+    "location": "5th St",
+    "timestamp": 1693382400,
+    "note": "Morning coffee, oat milk cappuccino, $6",
+    "price": 6.0,
+    "store": "Blue Cup"
+  },
+  {
+    "id": 1030,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1693391400,
+    "note": "Team standup, release planned for Friday"
+  },
+  {
+    "id": 1031,
+    "source_type": "text",
+    "category": "social",
+    "location": "Downtown",
+    "timestamp": 1693400400,
+    "note": "Lunch meeting with Alex at downtown spot"
+  },
+  {
+    "id": 1032,
+    "source_type": "text",
+    "category": "shopping",
+    "location": "Mall",
+    "timestamp": 1693411200,
+    "note": "Bought scarf for Mum, blue wool, $45",
+    "price": 45.0
+  },
+  {
+    "id": 1033,
+    "source_type": "voice",
+    "category": "health",
+    "location": "Gym",
+    "timestamp": 1693420200,
+    "transcript": "Quick memo, locker code at the gym is 2280"
+  },
+  {
+    "id": 1034,
+    "source_type": "text",
+    "category": "travel",
+    "location": "Home",
+    "timestamp": 1693432800,
+    "note": "Packed for coast trip, leaving tomorrow"
+  },
+  {
+    "id": 1035,
+    "source_type": "text",
+    "category": "travel",
+    "location": "Station",
+    "timestamp": 1693465200,
+    "note": "Coast trip day, early morning departure"
+  },
+  {
+    "id": 1036,
+    "source_type": "text",
+    "category": "food",
+    "location": null,
+    "timestamp": 1693483200,
+    "note": "Lunch at beach cafe, fish and chips, $16",
+    "price": 16.0
+  },
+  {
+    "id": 1037,
+    "source_type": "voice",
+    "category": "travel",
+    "location": null,
+    "timestamp": 1693494000,
+    "transcript": "Note to self, Alex found great hiking trail near coast"
+  },
+  {
+    "id": 1038,
+    "source_type": "text",
+    "category": "food",
+    "location": null,
+    "timestamp": 1693508400,
+    "note": "Hotel dinner, local seafood place, $38",
+    "price": 38.0
+  },
+  {
+    "id": 1039,
+    "source_type": "text",
+    "category": "social",
+    "location": null,
+    "timestamp": 1693515600,
+    "note": "Sunset walk along the beach with Alex"
+  },
+  {
+    "id": 1040,
+    "source_type": "text",
+    "category": "food",
+    "location": null,
+    "timestamp": 1693555200,
+    "note": "Breakfast at cafe, avocado toast, $12",
+    "price": 12.0
+  },
+  {
+    "id": 1041,
+    "source_type": "text",
+    "category": "travel",
+    "location": null,
+    "timestamp": 1693566000,
+    "note": "Hiking trail with Alex, saw three deer"
+  },
+  {
+    "id": 1042,
+    "source_type": "text",
+    "category": "shopping",
+    "location": null,
+    "timestamp": 1693584000,
+    "note": "Bought local pottery, $28, hand wash only",
+    "price": 28.0
+  },
+  {
+    "id": 1043,
+    "source_type": "voice",
+    "category": "home",
+    "location": "Home",
+    "timestamp": 1693596600,
+    "transcript": "Reminder, the pottery can't go in the dishwasher"
+  },
+  {
+    "id": 1044,
+    "source_type": "text",
+    "category": "social",
+    "location": null,
+    "timestamp": 1693602000,
+    "note": "Evening at hotel, wine and board games"
+  },
+  {
+    "id": 1045,
+    "source_type": "text",
+    "category": "food",
+    "location": null,
+    "timestamp": 1693641600,
+    "note": "Last morning at coast, relaxed breakfast"
+  },
+  {
+    "id": 1046,
+    "source_type": "text",
+    "category": "errands",
+    "location": null,
+    "timestamp": 1693659600,
+    "note": "Drove back, stopped at roadside market"
+  },
+  {
+    "id": 1047,
+    "source_type": "text",
+    "category": "home",
+    "location": "Home",
+    "timestamp": 1693677600,
+    "note": "Back home, unpacking from the trip"
+  },
+  {
+    "id": 1048,
+    "source_type": "voice",
+    "category": "errands",
+    "location": "Home",
+    "timestamp": 1693684800,
+    "transcript": "Note to self, do laundry tomorrow morning"
+  },
+  {
+    "id": 1049,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1693731600,
+    "note": "Back at work, caught up on emails"
+  },
+  {
+    "id": 1050,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1693738800,
+    "note": "Sarah wants to pair program on auth service"
+  },
+  {
+    "id": 1051,
+    "source_type": "text",
+    "category": "home",
+    "location": "Home",
+    "timestamp": 1693753200,
+    "note": "Finished laundry, put pottery on shelf"
+  },
+  {
+    "id": 1052,
+    "source_type": "voice",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1693765800,
+    "transcript": "Quick reminder, book club Friday night, bring wine"
+  },
+  {
+    "id": 1053,
+    "source_type": "text",
+    "category": "health",
+    "location": "Gym",
+    "timestamp": 1693771200,
+    "note": "Gym session, arms and core work"
+  },
+  {
+    "id": 1054,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1693821600,
+    "note": "Pair programming with Sarah, fixed bug"
+  },
+  {
+    "id": 1055,
+    "source_type": "text",
+    "category": "shopping",
+    "location": "Mall",
+    "timestamp": 1693843200,
+    "note": "Shopping for book club wine, red blend, $18",
+    "price": 18.0
+  },
+  {
+    "id": 1056,
+    "source_type": "voice",
+    "category": "home",
+    "location": "Home",
+    "timestamp": 1693854000,
+    "transcript": "Reminder, basil on windowsill needs water today"
+  },
+  {
+    "id": 1057,
+    "source_type": "text",
+    "category": "travel",
+    "location": null,
+    "timestamp": 1693900800,
+    "note": "Commute smooth, bike path working again"
+  },
+  {
+    "id": 1058,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1693909800,
+    "note": "Release prep meeting, everything good"
+  },
+  {
+    "id": 1059,
+    "source_type": "text",
+    "category": "food",
+    "location": "Downtown",
+    "timestamp": 1693917000,
+    "note": "Team lunch at sandwich place, $9.50",
+    "price": 9.5
+  },
+  {
+    "id": 1060,
+    "source_type": "text",
+    "category": "health",
+    "location": null,
+    "timestamp": 1693926000,
+    "note": "Doctor appointment confirmed, Tuesday 2pm"
+  },
+  {
+    "id": 1061,
+    "source_type": "voice",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1693936800,
+    "transcript": "Note to self, Mum got the scarf, she loves it"
+  },
+  {
+    "id": 1062,
+    "source_type": "text",
+    "category": "health",
+    "location": "Park",
+    "timestamp": 1693944000,
+    "note": "Evening jog around the park, 3 miles"
+  },
+  {
+    "id": 1063,
+    "source_type": "text",
+    "category": "health",
+    "location": "Gym",
+    "timestamp": 1693981800,
+    "note": "Gym early, chest and triceps day"
+  },
+  {
+    "id": 1064,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1693990800,
+    "note": "Final release tests passing, shipping Friday"
+  },
+  {
+    "id": 1065,
+    "source_type": "text",
+    "category": "social",
+    "location": "Office",
+    "timestamp": 1694008800,
+    "note": "Alex texted, wants to hike again next month"
+  },
+  {
+    "id": 1066,
+    "source_type": "voice",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1694019600,
+    "transcript": "Reminder, need to prep something nice for book club"
+  },
+  {
+    "id": 1067,
+    "source_type": "text",
+    "category": "food",
+    "location": "5th St",
+    "timestamp": 1694073600,
+    "note": "Friday coffee, celebrating the release",
+    "price": 6.0,
+    "store": "Blue Cup"
+  },
+  {
+    "id": 1068,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694080800,
+    "note": "Release deployed successfully, no issues"
+  },
+  {
+    "id": 1069,
+    "source_type": "text",
+    "category": "food",
+    "location": "Downtown",
+    "timestamp": 1694088000,
+    "note": "Celebration lunch with Sarah and team",
+    "price": 15.0
+  },
+  {
+    "id": 1070,
+    "source_type": "text",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1694098800,
+    "note": "Left work early, heading to book club"
+  },
+  {
+    "id": 1071,
+    "source_type": "voice",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1694113200,
+    "transcript": "Book club night, great discussion, wine perfect"
+  },
+  {
+    "id": 1072,
+    "source_type": "text",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1694167200,
+    "note": "Book club moves to Alex place next time, 22 Birch Lane"
+  },
+  {
+    "id": 1073,
+    "source_type": "text",
+    "category": "food",
+    "location": "Downtown",
+    "timestamp": 1694174400,
+    "note": "Brunch at the cafe, pancakes and coffee, $14",
+    "price": 14.0
+  },
+  {
+    "id": 1074,
+    "source_type": "text",
+    "category": "errands",
+    "location": "Downtown",
+    "timestamp": 1694185200,
+    "note": "Grocery shopping, ingredients for new recipe",
+    "price": 38.0
+  },
+  {
+    "id": 1075,
+    "source_type": "voice",
+    "category": "food",
+    "location": "Home",
+    "timestamp": 1694196000,
+    "transcript": "Note to self, try the Thai curry recipe this week"
+  },
+  {
+    "id": 1076,
+    "source_type": "text",
+    "category": "health",
+    "location": "Gym",
+    "timestamp": 1694203200,
+    "note": "Gym session, cardio and weights"
+  },
+  {
+    "id": 1077,
+    "source_type": "text",
+    "category": "travel",
+    "location": "Park",
+    "timestamp": 1694242800,
+    "note": "Morning bike ride, clearing my head"
+  },
+  {
+    "id": 1078,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694253600,
+    "note": "Monday standup, planning next sprint"
+  },
+  {
+    "id": 1079,
+    "source_type": "text",
+    "category": "food",
+    "location": "Office",
+    "timestamp": 1694264400,
+    "note": "Lunch, tried Thai curry, really good, $11",
+    "price": 11.0
+  },
+  {
+    "id": 1080,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694273400,
+    "note": "Sarah wants to discuss refactoring payment module"
+  },
+  {
+    "id": 1081,
+    "source_type": "voice",
+    "category": "health",
+    "location": "Home",
+    "timestamp": 1694286000,
+    "transcript": "Reminder, doctor appointment tomorrow, bring insurance card"
+  },
+  {
+    "id": 1082,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694343600,
+    "note": "Code review for payment refactoring PR"
+  },
+  {
+    "id": 1083,
+    "source_type": "text",
+    "category": "food",
+    "location": "Office",
+    "timestamp": 1694352600,
+    "note": "Quick lunch, sandwich from deli, $9",
+    "price": 9.0
+  },
+  {
+    "id": 1084,
+    "source_type": "voice",
+    "category": "health",
+    "location": "Office",
+    "timestamp": 1694354400,
+    "transcript": "Quick memo, doctor appointment in an hour"
+  },
+  {
+    "id": 1085,
+    "source_type": "text",
+    "category": "health",
+    "location": null,
+    "timestamp": 1694361600,
+    "note": "Doctor visit went well, all clear"
+  },
+  {
+    "id": 1086,
+    "source_type": "text",
+    "category": "food",
+    "location": "Home",
+    "timestamp": 1694370600,
+    "note": "Made Thai curry at home, turned out great"
+  },
+  {
+    "id": 1087,
+    "source_type": "text",
+    "category": "health",
+    "location": "Gym",
+    "timestamp": 1694417400,
+    "note": "Gym session, back to routine"
+  },
+  {
+    "id": 1088,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694426400,
+    "note": "Payment refactoring PR approved, merging today"
+  },
+  {
+    "id": 1089,
+    "source_type": "text",
+    "category": "social",
+    "location": "Downtown",
+    "timestamp": 1694433600,
+    "note": "Lunch with Alex, planning next coast trip"
+  },
+  {
+    "id": 1090,
+    "source_type": "text",
+    "category": "travel",
+    "location": "Home",
+    "timestamp": 1694444400,
+    "note": "Bike chain needs replacing, will do this weekend"
+  },
+  {
+    "id": 1091,
+    "source_type": "voice",
+    "category": "shopping",
+    "location": "Station",
+    "timestamp": 1694455200,
+    "transcript": "Note to self, buy new bike chain at the station shop"
+  },
+  {
+    "id": 1092,
+    "source_type": "text",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1694462400,
+    "note": "Evening walk with Alex around neighborhood"
+  },
+  {
+    "id": 1093,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694516400,
+    "note": "Sprint planning session for next cycle"
+  },
+  {
+    "id": 1094,
+    "source_type": "text",
+    "category": "shopping",
+    "location": "Station",
+    "timestamp": 1694534400,
+    "note": "Bought new bike chain, $32 at station shop",
+    "price": 32.0
+  },
+  {
+    "id": 1095,
+    "source_type": "voice",
+    "category": "travel",
+    "location": "Home",
+    "timestamp": 1694547000,
+    "transcript": "Reminder, replace the bike chain tomorrow afternoon"
+  },
+  {
+    "id": 1096,
+    "source_type": "text",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1694552400,
+    "note": "Watched sci-fi movie, good one"
+  },
+  {
+    "id": 1097,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694588400,
+    "note": "Office wifi password is on the whiteboard by the kitchen"
+  },
+  {
+    "id": 1098,
+    "source_type": "text",
+    "category": "work",
+    "location": "Office",
+    "timestamp": 1694599200,
+    "note": "Final checks on deployed feature, no issues"
+  },
+  {
+    "id": 1099,
+    "source_type": "text",
+    "category": "travel",
+    "location": "Home",
+    "timestamp": 1694617200,
+    "note": "Replaced bike chain finally, runs smooth"
+  },
+  {
+    "id": 1100,
+    "source_type": "voice",
+    "category": "social",
+    "location": "Home",
+    "timestamp": 1694628000,
+    "transcript": "Note to self, Alex wants to hike again next weekend"
+  },
+  {
+    "id": 1101,
+    "source_type": "text",
+    "category": "health",
+    "location": "Gym",
+    "timestamp": 1694635200,
+    "note": "Evening gym session, finished strong"
+  }
+]
