@@ -1,0 +1,38 @@
+# python package requirements file
+
+# Note to our Learners: Our courses are created at a specific point in time. The models and libraries used will naturally change over time.
+# If you download and run the notebooks locally, you should create a Python virtual environment
+# with the Python version matching the one used in the course and use this requirements.txt file to install the required Python packages.
+# Due to the wide diversity of platforms and environments, DeepLearning does not explicitly support running locally. However, if you encounter
+# issues, the course support channel is a good place to ask questions.
+
+# Python 3.12 or newer. The course was built and validated on 3.14.6.
+# Every version below is pinned to the one the notebooks were run with, so the
+# scores printed in the saved outputs reproduce exactly.
+
+# Memory layer
+qdrant-edge-py==0.7.2
+
+# Local text and image embeddings: Nomic and CLIP through FastEmbed. No
+# account needed, and no network after the first model download.
+fastembed==0.8.0
+
+# On-device speech to text for the voice notes (ONNX Whisper)
+onnx-asr==0.12.0
+
+# FastEmbed and onnx-asr both run their models on these two. They decide the
+# embedding numbers, so they are pinned alongside the models.
+onnxruntime==1.27.0
+tokenizers==0.23.1
+
+# The upload button in Lesson 5. Ships its own JupyterLab extension, so it
+# works in a container with no outbound network.
+ipywidgets==8.1.8
+
+# Visualization and data
+matplotlib==3.11.0
+numpy==2.5.1
+Pillow==12.3.0
+
+# Server client, for the optional cloud sync in the appendix
+qdrant-client==1.18.0
