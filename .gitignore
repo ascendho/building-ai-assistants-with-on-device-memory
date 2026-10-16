@@ -1,0 +1,33 @@
+# Local workspace metadata
+.threadrelink/
+.DS_Store
+
+# Secrets and local configuration
+.env
+.env.local
+.env.*.local
+
+# Python and Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local model and application caches
+.cache/
+models/
+
+# Generated Qdrant Edge data
+mem_shard/
+object_shard/
+assistant_shard/
+sync_shard/
+device_b_shard/
+device_b_local/
+edge-data/
+edge-data-*/
+*.snapshot
