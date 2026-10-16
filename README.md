@@ -23,11 +23,11 @@
 .
 ├── notes/          # 基于课程材料整理的中文学习笔记
 ├── transcripts/    # 课程视频文字稿及原始课程链接
-├── code/lessons/   # L3–L5、Appendix notebooks 与配套素材
+├── code/           # L3–L5、Appendix notebooks 与配套素材
 └── manifest.json   # 课程项目、来源链接与本地文件索引
 ```
 
-课程代码的环境要求、目录说明和运行方式见 [`code/lessons/README.md`](code/lessons/README.md)。建议使用 Python 3.12 或更新版本，并在独立虚拟环境中安装固定依赖。首次执行会下载本地 embedding、语音转写等模型。
+课程代码的环境要求、目录说明和运行方式见 [`code/README.md`](code/README.md)。建议使用 Python 3.12 或更新版本，并在独立虚拟环境中安装固定依赖。首次执行会下载本地 embedding、语音转写等模型。
 
 ## 学习主线
 

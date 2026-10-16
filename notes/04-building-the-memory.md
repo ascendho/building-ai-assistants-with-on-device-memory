@@ -3,7 +3,7 @@
 > 课程：Building AI Assistants with On-Device Memory  
 > 本课定位：第一节动手实验——存储、检索、过滤和遗忘文本与图像记忆  
 > 前置笔记：[03 Inside the AI Assistant Device](03-inside-the-ai-assistant-device.md)  
-> 主要材料：[04 transcript](../transcripts/04-building-the-memory.md) · [L3 notebook](../code/lessons/L3/Lesson3.ipynb) · [`helper.py`](../code/lessons/helper.py)
+> 主要材料：[04 transcript](../transcripts/04-building-the-memory.md) · [L3 notebook](../code/L3/Lesson3.ipynb) · [`helper.py`](../code/helper.py)
 
 ## 1. 编号说明与学习目标
 
@@ -52,9 +52,9 @@ Memory Point = ID + Named Vector(s) + Payload
 
 ## 3. 运行前准备
 
-课程 README 建议使用 Python 3.12 或更新版本，并从 [`requirements.txt`](../code/lessons/requirements.txt) 安装固定版本依赖。课程保存输出使用 `qdrant-edge-py==0.7.2` 和 `fastembed==0.8.0`。
+课程 README 建议使用 Python 3.12 或更新版本，并从 [`requirements.txt`](../code/requirements.txt) 安装固定版本依赖。课程保存输出使用 `qdrant-edge-py==0.7.2` 和 `fastembed==0.8.0`。
 
-打开 notebook 时，应确保它按课程布局在 [`code/lessons/L3/`](../code/lessons/L3/) 中运行，因为代码使用相对路径：
+打开 notebook 时，应确保它按课程布局在 [`code/L3/`](../code/L3/) 中运行，因为代码使用相对路径：
 
 ```text
 ./mem_shard
@@ -144,7 +144,7 @@ Nothing stored yet.
 
 ## 6. Step 3：加载文本记忆
 
-课程数据文件 [`memories.json`](../code/lessons/ro_shared_data/memories.json) 一共有 42 条跨模态记录：
+课程数据文件 [`memories.json`](../code/ro_shared_data/memories.json) 一共有 42 条跨模态记录：
 
 | `source_type` | 数量 |
 | --- | ---: |
@@ -359,7 +359,7 @@ hits_filtered = text_search(shard, question, cheap_food)
 
 ## 12. Step 9：向同一个 shard 加入图片
 
-课程的 [`bank/`](../code/lessons/ro_shared_data/bank/) 目录包含 165 张对象图片。辅助函数执行：
+课程的 [`bank/`](../code/ro_shared_data/bank/) 目录包含 165 张对象图片。辅助函数执行：
 
 ```python
 store_photos(shard, "./ro_shared_data/bank")
@@ -556,7 +556,7 @@ sequenceDiagram
 1. 把问题改为 `something I need to do before Friday`，观察语义检索是否找到干洗笔记。
 2. 只保留 `category == "food"`，比较有无 price 条件时的候选变化。
 3. 将 `lt=15` 改成更严格的价格范围，预测结果后再运行。
-4. 将图片描述改成另一个确实存在于 [`bank/`](../code/lessons/ro_shared_data/bank/) 的对象，观察返回图片。
+4. 将图片描述改成另一个确实存在于 [`bank/`](../code/ro_shared_data/bank/) 的对象，观察返回图片。
 5. 删除非第一名记忆，验证未删除结果的相似度分数仍然不变。
 6. 关闭并重新打开已有 shard，验证磁盘持久化；不要在前面再次调用 `fresh_start`。
 
@@ -603,14 +603,14 @@ sequenceDiagram
 下一节会把文本、语音和照片合并成一天的记忆，并构建可以用文字或语音提问的助手：
 
 - 视频 transcript：[05 Building the Voice Assistant](../transcripts/05-building-the-voice-assistant.md)
-- 对应 notebook：[L4/Lesson4.ipynb](../code/lessons/L4/Lesson4.ipynb)
+- 对应 notebook：[L4/Lesson4.ipynb](../code/L4/Lesson4.ipynb)
 
 ## 资料来源
 
 - [04：Building the Memory transcript](../transcripts/04-building-the-memory.md)
-- [L3：Building the Memory notebook](../code/lessons/L3/Lesson3.ipynb)
-- [课程辅助函数](../code/lessons/helper.py)
-- [课程综合记忆数据](../code/lessons/ro_shared_data/memories.json)
-- [课程图片库](../code/lessons/ro_shared_data/bank/)
-- [课程运行说明与依赖](../code/lessons/README.md)
+- [L3：Building the Memory notebook](../code/L3/Lesson3.ipynb)
+- [课程辅助函数](../code/helper.py)
+- [课程综合记忆数据](../code/ro_shared_data/memories.json)
+- [课程图片库](../code/ro_shared_data/bank/)
+- [课程运行说明与依赖](../code/README.md)
 

@@ -3,7 +3,7 @@
 > 课程：Building AI Assistants with On-Device Memory  
 > 本课定位：第三节动手实验——少样本对象识别、阈值校准与基于时间的新鲜度重排  
 > 前置笔记：[05 Building the Voice Assistant](05-building-the-voice-assistant.md)  
-> 主要材料：[06 transcript](../transcripts/06-learning-through-memory.md) · [L5 notebook](../code/lessons/L5/Lesson5.ipynb) · [`helper.py`](../code/lessons/L5/helper.py)
+> 主要材料：[06 transcript](../transcripts/06-learning-through-memory.md) · [L5 notebook](../code/L5/Lesson5.ipynb) · [`helper.py`](../code/L5/helper.py)
 
 ## 1. 编号说明与学习目标
 
@@ -935,12 +935,12 @@ Camera frame
 ## 资料来源
 
 - [06：Learning Through Memory transcript](../transcripts/06-learning-through-memory.md)
-- [L5：Learning Through Memory notebook](../code/lessons/L5/Lesson5.ipynb)
-- [L5 课程辅助函数](../code/lessons/L5/helper.py)
-- [当天综合记忆数据](../code/lessons/L5/ro_shared_data/memories.json)
-- [历史记忆数据](../code/lessons/L5/ro_shared_data/recent_days.json)
-- [对象照片说明](../code/lessons/L5/ro_shared_data/objects/README.md)
-- [对象照片目录](../code/lessons/L5/ro_shared_data/objects/)
-- [当天场景照片目录](../code/lessons/L5/ro_shared_data/images/)
-- [课程运行说明](../code/lessons/README.md)
-- [课程固定依赖](../code/lessons/requirements.txt)
+- [L5：Learning Through Memory notebook](../code/L5/Lesson5.ipynb)
+- [L5 课程辅助函数](../code/L5/helper.py)
+- [当天综合记忆数据](../code/L5/ro_shared_data/memories.json)
+- [历史记忆数据](../code/L5/ro_shared_data/recent_days.json)
+- [对象照片说明](../code/L5/ro_shared_data/objects/README.md)
+- [对象照片目录](../code/L5/ro_shared_data/objects/)
+- [当天场景照片目录](../code/L5/ro_shared_data/images/)
+- [课程运行说明](../code/README.md)
+- [课程固定依赖](../code/requirements.txt)

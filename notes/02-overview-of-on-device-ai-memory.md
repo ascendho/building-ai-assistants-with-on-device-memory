@@ -3,7 +3,7 @@
 > 课程：Building AI Assistants with On-Device Memory  
 > 本课定位：理解文本与图像如何变成可检索的本地记忆  
 > 前置笔记：[01 Introduction：给 AI 助手一套端侧记忆](01-introduction.md)  
-> 主要材料：[02 transcript](../transcripts/02-overview-of-on-device-ai-memory.md) · [课程代码说明](../code/lessons/README.md) · [DeepLearning.AI 官方课程页](https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory)
+> 主要材料：[02 transcript](../transcripts/02-overview-of-on-device-ai-memory.md) · [课程代码说明](../code/README.md) · [DeepLearning.AI 官方课程页](https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory)
 
 ## 1. 本课要回答的核心问题
 
@@ -72,7 +72,7 @@ flowchart LR
 
 > 本节是使用后续 notebook 对本课概念的代码印证；02 本身是概念视频，没有独立 notebook。
 
-[L3 notebook](../code/lessons/L3/Lesson3.ipynb) 和 [`helper.py`](../code/lessons/helper.py) 给出了实际配置：
+[L3 notebook](../code/L3/Lesson3.ipynb) 和 [`helper.py`](../code/helper.py) 给出了实际配置：
 
 | 项目 | 课程实现 |
 | --- | --- |
@@ -134,7 +134,7 @@ flowchart LR
 | 向量空间名称 | `image` |
 | 距离度量 | Cosine |
 
-例如，[L3](../code/lessons/L3/Lesson3.ipynb) 会把 “a red bicycle” 通过 CLIP text encoder 编码，再到 `image` 向量空间中检索照片：
+例如，[L3](../code/L3/Lesson3.ipynb) 会把 “a red bicycle” 通过 CLIP text encoder 编码，再到 `image` 向量空间中检索照片：
 
 ```python
 description_vector = embed_query_clip("a red bicycle")
@@ -182,7 +182,7 @@ top score < similarity threshold  → 拒绝：标记为 unknown
 
 视频中，Luna 玩偶在加入多个视角后，口述的界面分数上升到约 97。这个数字只是当次演示结果，不是可复制到所有模型和数据上的通用阈值。
 
-在后续 [L5 notebook](../code/lessons/L5/Lesson5.ipynb) 中，课程会用已标注的 match/non-match 分数分布校准阈值。该实验的已知匹配最低分为 0.86、非匹配最高分为 0.74，示例阈值取 0.80；这些值是该实验数据与模型下的选择，新的应用仍需重新评估 false positive 与 false negative 的代价。
+在后续 [L5 notebook](../code/L5/Lesson5.ipynb) 中，课程会用已标注的 match/non-match 分数分布校准阈值。该实验的已知匹配最低分为 0.86、非匹配最高分为 0.74，示例阈值取 0.80；这些值是该实验数据与模型下的选择，新的应用仍需重新评估 false positive 与 false negative 的代价。
 
 ## 7. “教会一次”为什么不需要重新训练模型？
 
@@ -221,7 +221,7 @@ top score < similarity threshold  → 拒绝：标记为 unknown
 
 课程提供的架构图展示了同一种 Qdrant Edge、EdgeStorage 和 Local API 组合如何部署在不同设备上：
 
-![多个设备上的 Qdrant Edge、EdgeStorage 与 Local API 架构](../code/lessons/assets/qdrant-edge-scheme.png)
+![多个设备上的 Qdrant Edge、EdgeStorage 与 Local API 架构](../code/assets/qdrant-edge-scheme.png)
 
 ## 9. 三个演示背后的数据结构
 
@@ -283,8 +283,8 @@ Luna 不是“所有猫”这一抽象类别，而是用户教给设备的一个
 
 - [02：Overview of On-Device AI Memory transcript](../transcripts/02-overview-of-on-device-ai-memory.md)
 - [DeepLearning.AI 官方课程页](https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory)
-- [课程代码 README](../code/lessons/README.md)
-- [课程 embedding 与检索辅助代码](../code/lessons/helper.py)
-- [L3：Building the Memory notebook](../code/lessons/L3/Lesson3.ipynb)
-- [L5：Learning Through Memory notebook](../code/lessons/L5/Lesson5.ipynb)
+- [课程代码 README](../code/README.md)
+- [课程 embedding 与检索辅助代码](../code/helper.py)
+- [L3：Building the Memory notebook](../code/L3/Lesson3.ipynb)
+- [L5：Learning Through Memory notebook](../code/L5/Lesson5.ipynb)
 

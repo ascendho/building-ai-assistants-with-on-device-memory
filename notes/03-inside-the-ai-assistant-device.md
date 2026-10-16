@@ -3,7 +3,7 @@
 > 课程：Building AI Assistants with On-Device Memory  
 > 本课定位：理解硬件、模型、本地记忆与交互界面如何协同工作  
 > 前置笔记：[02 Overview of On-Device AI Memory](02-overview-of-on-device-ai-memory.md)  
-> 主要材料：[03 transcript](../transcripts/03-inside-the-ai-assistant-device.md) · [课程代码 README](../code/lessons/README.md) · [官方设备仓库](https://github.com/https-deeplearning-ai/sc-on-device-ai-memory)
+> 主要材料：[03 transcript](../transcripts/03-inside-the-ai-assistant-device.md) · [课程代码 README](../code/README.md) · [官方设备仓库](https://github.com/https-deeplearning-ai/sc-on-device-ai-memory)
 
 ## 1. 本课的核心结论
 
@@ -74,7 +74,7 @@ flowchart TB
 
 课程自带的通用 Qdrant Edge 架构图也强调：每台设备都可以在本地拥有自己的 EdgeStorage 与 Local API，而不必把每次检索发送到远程数据库。
 
-![多个设备分别运行 Qdrant Edge、EdgeStorage 与 Local API](../code/lessons/assets/qdrant-edge-scheme.png)
+![多个设备分别运行 Qdrant Edge、EdgeStorage 与 Local API](../code/assets/qdrant-edge-scheme.png)
 
 ## 4. “没有单独的向量数据库服务器”是什么意思？
 
@@ -85,7 +85,7 @@ flowchart TB
 - 记忆保存在设备文件夹中，而不是必须连接一个独立的 Qdrant 服务进程；
 - 断电或应用重启后，可以重新加载磁盘上的 shard。
 
-后续 [L3 notebook](../code/lessons/L3/Lesson3.ipynb) 会把 shard 创建在普通目录中：
+后续 [L3 notebook](../code/L3/Lesson3.ipynb) 会把 shard 创建在普通目录中：
 
 ```python
 SHARD_DIR = "./mem_shard"
@@ -302,7 +302,7 @@ Qdrant shard 的访问由 `Memory` 串行化，防止多个 worker 同时读写�
 下载材料存在两套编号：
 
 - transcript 把 Introduction 计为 01，因此下一段视频是 [04 Building the Memory](../transcripts/04-building-the-memory.md)；
-- notebook 课程编号从核心课程单元计数，对应代码是 [L3/Lesson3.ipynb](../code/lessons/L3/Lesson3.ipynb)。
+- notebook 课程编号从核心课程单元计数，对应代码是 [L3/Lesson3.ipynb](../code/L3/Lesson3.ipynb)。
 
 二者内容对应，不是缺少了一个 notebook。
 
@@ -334,12 +334,12 @@ Qdrant shard 的访问由 `Memory` 串行化，防止多个 worker 同时读写�
 下一步将真正创建本地 shard，存储文本和图片，进行语义检索、metadata filtering 与删除：
 
 - 视频 transcript：[04 Building the Memory](../transcripts/04-building-the-memory.md)
-- 对应 notebook：[L3/Lesson3.ipynb](../code/lessons/L3/Lesson3.ipynb)
+- 对应 notebook：[L3/Lesson3.ipynb](../code/L3/Lesson3.ipynb)
 
 ## 资料来源
 
 - [03：Inside the AI Assistant Device transcript](../transcripts/03-inside-the-ai-assistant-device.md)
-- [课程 notebooks README](../code/lessons/README.md)
+- [课程 notebooks README](../code/README.md)
 - [官方设备仓库：sc-on-device-ai-memory](https://github.com/https-deeplearning-ai/sc-on-device-ai-memory)
 - [官方架构文档：Understand the Architecture](https://github.com/https-deeplearning-ai/sc-on-device-ai-memory/blob/main/docs/architecture.md)
 - [官方硬件文档](https://github.com/https-deeplearning-ai/sc-on-device-ai-memory/blob/main/docs/hardware.md)

@@ -3,7 +3,7 @@
 > 课程：Building AI Assistants with On-Device Memory  
 > 讲师：Dylan Couzon（Qdrant Developer Experience Engineer）  
 > 本课性质：课程导论与学习路线说明，不包含独立编程实验  
-> 主要材料：[01 transcript](../transcripts/01-introduction.md) · [课程代码说明](../code/lessons/README.md) · [DeepLearning.AI 官方课程页](https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory)
+> 主要材料：[01 transcript](../transcripts/01-introduction.md) · [课程代码说明](../code/README.md) · [DeepLearning.AI 官方课程页](https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory)
 
 ## 1. 这门课要解决什么问题？
 
@@ -84,7 +84,7 @@ CLIP 包含兼容的文本与图像编码器。它能让“一张猫的图片”
 
 课程自带的架构图强调：Qdrant Edge、EdgeStorage 和 Local API 可以随应用一起运行在不同设备上，本地设备共享的是同一种记忆架构，而不是必须使用同一种硬件。
 
-![Qdrant Edge 端侧记忆架构：不同设备各自运行本地存储和 API，并可选择与上层服务连接](../code/lessons/assets/qdrant-edge-scheme.png)
+![Qdrant Edge 端侧记忆架构：不同设备各自运行本地存储和 API，并可选择与上层服务连接](../code/assets/qdrant-edge-scheme.png)
 
 ## 6. Retrieval 不等于 Recognition
 
@@ -122,11 +122,11 @@ CLIP 包含兼容的文本与图像编码器。它能让“一张猫的图片”
 | --- | --- | --- |
 | [02 Overview](../transcripts/02-overview-of-on-device-ai-memory.md) | 用文本、图片和机器人示例理解语义检索 | embedding、CLIP、on-device 的价值 |
 | [03 Inside the Device](../transcripts/03-inside-the-ai-assistant-device.md) | 理解摄像头、计算设备、存储和手机界面的关系 | 捕获到本地记忆的完整路径 |
-| [L3 notebook](../code/lessons/L3/Lesson3.ipynb) | 创建 shard；存储与检索文本；按类别和价格过滤；用文字搜图；删除记忆 | Store、Recall、Forget |
-| [L4 notebook](../code/lessons/L4/Lesson4.ipynb) | 本地转写语音，把文本、语音和照片合并进一天的记忆 | 多模态离线助手 |
-| [L5 notebook](../code/lessons/L5/Lesson5.ipynb) | 用少量图片教会新对象；校准阈值；加入时间新鲜度排序 | 学习、识别与 soft forgetting |
+| [L3 notebook](../code/L3/Lesson3.ipynb) | 创建 shard；存储与检索文本；按类别和价格过滤；用文字搜图；删除记忆 | Store、Recall、Forget |
+| [L4 notebook](../code/L4/Lesson4.ipynb) | 本地转写语音，把文本、语音和照片合并进一天的记忆 | 多模态离线助手 |
+| [L5 notebook](../code/L5/Lesson5.ipynb) | 用少量图片教会新对象；校准阈值；加入时间新鲜度排序 | 学习、识别与 soft forgetting |
 | [07 Running Locally](../transcripts/07-running-on-a-local-computer.md) | 在 macOS、Windows 或 Linux 电脑上运行完整应用 | 同一记忆架构适配不同设备 |
-| [Appendix notebook](../code/lessons/Appendix/Appendix.ipynb) | 将端侧记忆推送到云端，再同步到另一台设备 | 可选的 local + cloud 混合架构 |
+| [Appendix notebook](../code/Appendix/Appendix.ipynb) | 将端侧记忆推送到云端，再同步到另一台设备 | 可选的 local + cloud 混合架构 |
 
 课程代码使用的主要本地组件包括：Qdrant Edge（向量记忆层）、FastEmbed（文本与 CLIP embedding）、ONNX Whisper（语音转写）和 ONNX Runtime（本地模型运行时）。首次准备模型可能需要下载；模型就绪后，核心实验不需要 API key，也可离线执行。
 
@@ -176,6 +176,6 @@ CLIP 包含兼容的文本与图像编码器。它能让“一张猫的图片”
 - [DeepLearning.AI：Building AI Assistants with On-Device Memory](https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory)
 - [课程导论 transcript](../transcripts/01-introduction.md)
 - [课程清单与来源链接](../manifest.json)
-- [本地代码说明与运行要求](../code/lessons/README.md)
-- 课程 notebooks：[L3](../code/lessons/L3/Lesson3.ipynb) · [L4](../code/lessons/L4/Lesson4.ipynb) · [L5](../code/lessons/L5/Lesson5.ipynb) · [Appendix](../code/lessons/Appendix/Appendix.ipynb)
+- [本地代码说明与运行要求](../code/README.md)
+- 课程 notebooks：[L3](../code/L3/Lesson3.ipynb) · [L4](../code/L4/Lesson4.ipynb) · [L5](../code/L5/Lesson5.ipynb) · [Appendix](../code/Appendix/Appendix.ipynb)
 

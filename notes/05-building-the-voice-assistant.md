@@ -3,7 +3,7 @@
 > 课程：Building AI Assistants with On-Device Memory  
 > 本课定位：第二节动手实验——把照片、文本笔记和语音笔记合并进一个本地记忆助手  
 > 前置笔记：[04 Building the Memory](04-building-the-memory.md)  
-> 主要材料：[05 transcript](../transcripts/05-building-the-voice-assistant.md) · [L4 notebook](../code/lessons/L4/Lesson4.ipynb) · [`helper.py`](../code/lessons/helper.py)
+> 主要材料：[05 transcript](../transcripts/05-building-the-voice-assistant.md) · [L4 notebook](../code/L4/Lesson4.ipynb) · [`helper.py`](../code/helper.py)
 
 ## 1. 编号说明与学习目标
 
@@ -81,7 +81,7 @@ Nomic 与 CLIP 是两个不同模型，维度与分数尺度也不同。系统�
 
 ## 4. 一天的记忆数据
 
-课程从 [`memories.json`](../code/lessons/L4/ro_shared_data/memories.json) 加载 42 条记录：
+课程从 [`memories.json`](../code/L4/ro_shared_data/memories.json) 加载 42 条记录：
 
 | `source_type` | 数量 | 写入的向量空间 |
 | --- | ---: | --- |
@@ -223,7 +223,7 @@ def transcribe_notes(memories, audio_dir):
 
 课程所说的“only the transcript gets stored”是指：写入向量记忆库的是 transcript 及其 metadata，而不是原始 waveform 或音频 embedding。
 
-它不代表源 `.wav` 文件会被自动删除。课程音频仍位于 [`ro_shared_data/audio/`](../code/lessons/L4/ro_shared_data/audio/)，只是 shard 的语义检索依赖 transcript。
+它不代表源 `.wav` 文件会被自动删除。课程音频仍位于 [`ro_shared_data/audio/`](../code/L4/ro_shared_data/audio/)，只是 shard 的语义检索依赖 transcript。
 
 ## 6. Step 2：创建统一的本地 memory store
 
@@ -424,7 +424,7 @@ memory_inbox(
 
 ## 11. Spoken Question：我把自行车停在哪里？
 
-课程播放 [`question.wav`](../code/lessons/L4/ro_shared_data/audio/question.wav)，本地转写结果为：
+课程播放 [`question.wav`](../code/L4/ro_shared_data/audio/question.wav)，本地转写结果为：
 
 ```text
 Heard: Hey, where did I park the bike?
@@ -615,7 +615,7 @@ Nomic 与 CLIP 的训练目标、向量维度和相似度分布都不同。合�
 
 ### 问题 1：找不到音频、图片或 JSON
 
-代码使用 `./ro_shared_data/...` 相对路径，应从课程提供的 [`L4/`](../code/lessons/L4/) 布局运行 notebook。改变工作目录后，相对路径会失效。
+代码使用 `./ro_shared_data/...` 相对路径，应从课程提供的 [`L4/`](../code/L4/) 布局运行 notebook。改变工作目录后，相对路径会失效。
 
 ### 问题 2：第一次转写或 embedding 很慢
 
@@ -713,16 +713,16 @@ notebook 会真实运行 STT，并用识别结果覆盖内存中的 `transcript`
 下一节会让助手通过少量个人照片学习并识别它以前没有见过的新概念或具体对象：
 
 - 视频 transcript：[06 Learning Through Memory](../transcripts/06-learning-through-memory.md)
-- 对应 notebook：[L5/Lesson5.ipynb](../code/lessons/L5/Lesson5.ipynb)
+- 对应 notebook：[L5/Lesson5.ipynb](../code/L5/Lesson5.ipynb)
 
 ## 资料来源
 
 - [05：Building the Voice Assistant transcript](../transcripts/05-building-the-voice-assistant.md)
-- [L4：Building the Voice Assistant notebook](../code/lessons/L4/Lesson4.ipynb)
-- [课程辅助函数](../code/lessons/helper.py)
-- [课程综合记忆数据](../code/lessons/L4/ro_shared_data/memories.json)
-- [课程语音文件说明](../code/lessons/L4/ro_shared_data/audio/README.md)
-- [课程音频目录](../code/lessons/L4/ro_shared_data/audio/)
-- [课程图片目录](../code/lessons/L4/ro_shared_data/images/)
-- [课程运行说明](../code/lessons/README.md)
-- [课程固定依赖](../code/lessons/requirements.txt)
+- [L4：Building the Voice Assistant notebook](../code/L4/Lesson4.ipynb)
+- [课程辅助函数](../code/helper.py)
+- [课程综合记忆数据](../code/L4/ro_shared_data/memories.json)
+- [课程语音文件说明](../code/L4/ro_shared_data/audio/README.md)
+- [课程音频目录](../code/L4/ro_shared_data/audio/)
+- [课程图片目录](../code/L4/ro_shared_data/images/)
+- [课程运行说明](../code/README.md)
+- [课程固定依赖](../code/requirements.txt)

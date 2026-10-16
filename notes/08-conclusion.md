@@ -3,7 +3,7 @@
 > 课程：Building AI Assistants with On-Device Memory  
 > 本课定位：课程收束——回顾完整技术主线，检查是否真正掌握，并规划后续实践  
 > 前置笔记：[07 Running on a Local Computer](07-running-on-a-local-computer.md)  
-> 主要材料：[08 transcript](../transcripts/08-conclusion.md) · [课程官网](https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory) · [课程代码说明](../code/lessons/README.md)
+> 主要材料：[08 transcript](../transcripts/08-conclusion.md) · [课程官网](https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory) · [课程代码说明](../code/README.md)
 
 ## 1. 先说明：第 08 课实际讲了什么？
 
@@ -375,7 +375,7 @@ On-device architecture 明显减少了把私人经历发送到远程服务的需
 
 课程代码还提供了可选 notebook：
 
-- [Appendix：A Hybrid of On-Device and Cloud Memory](../code/lessons/Appendix/Appendix.ipynb)
+- [Appendix：A Hybrid of On-Device and Cloud Memory](../code/Appendix/Appendix.ipynb)
 
 它不是第 08 课的新核心要求，而是课程结束后的扩展方向。主要流程是：
 
@@ -407,7 +407,7 @@ flowchart LR
 
 ### 阶段 A：本地文本与图片记忆
 
-使用 [L3 notebook](../code/lessons/L3/Lesson3.ipynb)：
+使用 [L3 notebook](../code/L3/Lesson3.ipynb)：
 
 1. 创建包含 `text` 和 `image` named vectors 的 shard；
 2. 写入文字 points；
@@ -417,7 +417,7 @@ flowchart LR
 
 ### 阶段 B：多模态日常回忆
 
-使用 [L4 notebook](../code/lessons/L4/Lesson4.ipynb)：
+使用 [L4 notebook](../code/L4/Lesson4.ipynb)：
 
 1. 在本地转写 voice notes；
 2. 统一存储 text、voice transcript 与 photos；
@@ -427,7 +427,7 @@ flowchart LR
 
 ### 阶段 C：教学、识别与时间重排
 
-使用 [L5 notebook](../code/lessons/L5/Lesson5.ipynb)：
+使用 [L5 notebook](../code/L5/Lesson5.ipynb)：
 
 1. 分离 teaching views 与 held-out test views；
 2. 比较教学前后的 nearest neighbor；
@@ -558,11 +558,11 @@ flowchart LR
 
 - [08：Conclusion transcript](../transcripts/08-conclusion.md)
 - [DeepLearning.AI：Building AI Assistants with On-Device Memory](https://www.deeplearning.ai/courses/building-ai-assistants-with-on-device-memory)
-- [课程代码说明](../code/lessons/README.md)
-- [L3：Building the Memory](../code/lessons/L3/Lesson3.ipynb)
-- [L4：Building the Voice Assistant](../code/lessons/L4/Lesson4.ipynb)
-- [L5：Learning Through Memory](../code/lessons/L5/Lesson5.ipynb)
-- [Optional Appendix：A Hybrid of On-Device and Cloud Memory](../code/lessons/Appendix/Appendix.ipynb)
+- [课程代码说明](../code/README.md)
+- [L3：Building the Memory](../code/L3/Lesson3.ipynb)
+- [L4：Building the Voice Assistant](../code/L4/Lesson4.ipynb)
+- [L5：Learning Through Memory](../code/L5/Lesson5.ipynb)
+- [Optional Appendix：A Hybrid of On-Device and Cloud Memory](../code/Appendix/Appendix.ipynb)
 - [01 Introduction 笔记](01-introduction.md)
 - [02 Overview of On-Device AI Memory 笔记](02-overview-of-on-device-ai-memory.md)
 - [03 Inside the AI Assistant Device 笔记](03-inside-the-ai-assistant-device.md)
